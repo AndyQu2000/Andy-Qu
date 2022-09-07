@@ -1,0 +1,23 @@
+# File
+  Size:
+      Empty.			    			[property FileIsEmpty] 
+      Not empty.
+  Number Files:			
+      One.								
+      Many.					
+#file copy
+  OPt:
+     zero.					[if !FileIsEmpty]
+     Many.					[if !FileIsEmpty]
+  Number of instances of file:
+     zero.					[if !FileIsEmpty][Property fileNotFound]
+     Many.					[if !FileIsEmpty]
+  First file Copy:
+     Yes.					[if !FileIsEmpty]
+     No.					[if !FileIsEmpty]
+  Last file Copy:
+     Yes.					[if !FileIsEmpty]
+     No.					[if !FileIsEmpty]
+  File Backup:
+     Yes.					[if !FileIsEmpty]
+     No.					[if !FileIsEmpty]
