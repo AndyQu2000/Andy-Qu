@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GLM</string>
+    <string name="addList">Create New List</string>
+    <string name="add_list_page">Create A List</string>
+    <string name="deleteList">Delete List</string>
+    <string name="editList_page">Edit List</string>
+    <string name="showReminders_page">Show Reminders</string>
+    <string name="searchReminders_page">Search for Reminders</string>
+    <string name="spinnerLabel">Choose a List Below</string>
+</resources>
