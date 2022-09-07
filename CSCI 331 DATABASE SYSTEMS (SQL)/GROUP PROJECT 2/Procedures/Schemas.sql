@@ -1,0 +1,11 @@
+CREATE SCHEMA ClassScheduleProcedure
+
+CREATE SCHEMA DBSecurity
+
+CREATE SCHEMA Process
+
+CREATE SCHEMA Facility
+
+CREATE SCHEMA Schedule
+
+CREATE SCHEMA UDT
