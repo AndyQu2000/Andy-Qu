@@ -1,0 +1,10 @@
+Minimum integer after 1000 = 46
+Minimum integer after 2000 = 0
+Minimum integer after 3000 = 0
+Minimum integer after 4000 = 0
+Minimum integer after 5000 = 0
+Minimum integer after 6000 = 0
+Minimum integer after 7000 = 0
+Minimum integer after 8000 = 0
+Minimum integer after 9000 = 0
+Minimum integer after 1000 = 0

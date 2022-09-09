@@ -1,0 +1,53 @@
+Project Description  
+-------------------
+
+1) Your program will make use of the POSIX system I/O calls discussed in lectures. That is, you MUST only use open(), close(),
+   read(), write(), lseek(). 
+
+2) You are NOT permitted to use any C++ nor C standard I/O library functions nor cin nor cout. Furthermore, you cannot use
+   any C++ nor C standard library functions for string oeprations.  
+
+3) You are NOT permitted to reference nor use the size of the input file in your program.
+
+4) Your program will do the following three actions simultaneously after having opened the input text file:
+
+   a) Read the input file from the beginning of the file to the end of file,  character by character.
+      You may only use one character array for storing the characters with maximum array size of 32 (regardless of input file size).
+
+   b) Read the input file in reverse, that is, backwards from the end of the file, character by character.
+      You may only use one character array for storing the characters with maximum array size of 32 (regardless of input file size).
+
+   c) Compare each character read from part (a) with that from part (b). If they are the same then print to the screen a zero, otherwise print 1. 
+
+
+NOTE:
+
+5) ONLY after you finally exhaust the input file contents, you will print a newline character to the screen.
+
+6) Afterwards, you will print:
+     a) The position and actual characters that differ as shown in the example below.
+     b) The total number of characters that differ as shown in the example below. 
+
+7) Two input files will be provided at a later date for your program execution and report submission. Until that time, please use your own input files.
+
+
+Program execution example:
+
+Compare the first character in the file with the last character in the file.
+Compare the second character in the file with the next to last character in the file.\
+Compare the third character in the file with the next to next to last character in the file.
+And so on....
+
+
+Consider if the input file has the following text:    abcdefdcbx
+You will print out to the screen the following: 
+
+1000110001
+
+1  a x
+5  e f
+6  f e
+10 x a
+
+Total: 4 character positions differ.
+
